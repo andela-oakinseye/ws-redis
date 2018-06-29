@@ -1,0 +1,32 @@
+{
+  "name": "websocket-redis",
+  "version": "1.0.0",
+  "description": "A server - client/server implementation of websocket, one-client support and handling of failed messages with redis",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "babel-watch start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-oakinseye/ws-redis.git"
+  },
+  "keywords": [],
+  "author": "Olawale Akinseye <brainyfarm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-oakinseye/ws-redis/issues"
+  },
+  "homepage": "https://github.com/andela-oakinseye/ws-redis#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "dotenv": "^6.0.0",
+    "redis": "^2.8.0",
+    "ws": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  }
+}
